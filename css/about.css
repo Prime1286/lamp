@@ -80,6 +80,7 @@
 
 .form form input {
   width: 50%;
+  -webkit-appearance: none;
 }
 
 @media screen and (max-width: 425px) {
