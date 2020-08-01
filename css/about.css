@@ -1,0 +1,159 @@
+.about {
+  min-height: 730px;
+  margin-top: 96px;
+  padding-top: 90px;
+  background: url(../img/about-img.jpg) top right no-repeat, url(../img/decor/3.png) 5% 33% no-repeat, url(../img/decor/7.png) 15% 85% no-repeat, url(../img/decor/6.png) 84% 66% no-repeat;
+  background-blend-mode: multiply;
+}
+
+.about__inner {
+  max-width: 700px;
+  width: 100%;
+  background: url(../img/decor/5.png) 72% 80% no-repeat;
+}
+
+@media screen and (max-width: 992px) {
+  .about__inner {
+    max-width: 100%;
+    background: url(../img/decor/3.png) 5% 33% no-repeat, url(../img/decor/7.png) 15% 85% no-repeat, url(../img/decor/6.png) 84% 66% no-repeat;
+    background-blend-mode: multiply;
+  }
+}
+
+.about__offer {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .about {
+    background: none;
+    padding-top: 30px;
+    text-align: center;
+    min-height: auto;
+    margin-bottom: 45px;
+  }
+}
+
+.offer {
+  color: #616161;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.offer span {
+  color: #fb973b;
+  font-weight: bold;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 390px;
+          flex: 0 1 390px;
+  max-width: 390px;
+  min-height: 58px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .form {
+    margin: 40px auto 0;
+  }
+}
+
+.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form form input {
+  width: 50%;
+}
+
+@media screen and (max-width: 425px) {
+  .form form input {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+    height: 40px;
+  }
+}
+
+.form form .tel-input {
+  background-color: #f8f8f8;
+  border: 1px solid #e1e1e1;
+  border-right: none;
+  padding: 0 35px;
+  color: #616161;
+  font-size: 18px;
+  line-height: 31px;
+}
+
+@media screen and (max-width: 425px) {
+  .form form .tel-input {
+    margin-bottom: 10px;
+    border-right: 1px solid #e1e1e1;
+  }
+}
+
+.form form .btn-input {
+  background-color: #fb973b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.title {
+  color: #141419;
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+.title span {
+  background: #fb973b;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fb973b), color-stop(15%, #fb973b), color-stop(15%, transparent), to(transparent));
+  background: linear-gradient(0deg, #fb973b 0%, #fb973b 15%, transparent 15%, transparent 100%);
+  background-position: 0 -15px;
+}
+
+@media screen and (max-width: 992px) {
+  .title span {
+    background-position: 0 -12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title span {
+    background-position: 0 -10px;
+  }
+}
+/*# sourceMappingURL=about.css.map */
